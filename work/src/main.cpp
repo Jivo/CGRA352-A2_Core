@@ -40,6 +40,8 @@ int main( int argc, char** argv ) {
 	/****************************
 	           START
 	*****************************/
+
+	//Algorithm
 	Mat nnf(target.rows, target.cols, CV_32SC2);
 	Mat cost(nnf.rows, nnf.cols, CV_32F);
 	initialize(source, target, sourceBorder, targetBorder, nnf, cost);
